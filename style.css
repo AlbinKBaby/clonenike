@@ -142,15 +142,14 @@ footer p {
     margin: 0px 13px;
   }
   .shoes {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-    padding: 20px;
-    width: 100%;
-    margin: 0px 0px;
+    padding: 10px;
+    width: 90%;
+    margin: 0px 10px;
   }
   .shoesrack {
-    width: 40%;
-    margin: 0px;
+    height: 300px;    
   }
   .footer {
     height: auto;
