@@ -2,9 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
-
 header {
   background-color: white;
   color: rgb(0, 0, 0);
@@ -124,41 +122,32 @@ footer p {
   .navlink{
     width: 100%;
     display: flex;
-    margin: 0px 5px;
+    justify-content: space-around;
     background-color: bisque;
   }
-.menuicon {
+  .menuicon {
     display: flex;
     width: 100px;
     height: auto;
-
+    margin: 10px;
   }
-
-  .destination-cards {
+  .shoesrack {
     flex-direction: column;
     align-items: center;
   }
-
-  .destination-card {
+  .shoesrack {
     width: 90%;
-  }
-
-  .cta-button {
-    width: 100%;
-    padding: 15px 0;
   }
 }
 
-/* Tablet view */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .destination-card {
+  .shoesrack {
     width: 45%;
   }
 }
 
-/* Laptop view */
 @media (min-width: 1025px) {
-  .destination-card {
+  .shoesrack {
     width: 30%;
   }
 }
