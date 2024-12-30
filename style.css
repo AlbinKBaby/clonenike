@@ -135,11 +135,10 @@ footer p {
   }
   .menu {
     height: 50px;
-    width: 480px;
 
   }
   .menuicon a{
-    margin: 30px;
+    margin: 20px;
   }
   .shoes {
     flex-direction: column;
